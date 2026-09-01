@@ -1,0 +1,28 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Raw and preprocessed image datasets (~15 GB)
+images/
+**/images_normalized/
+**/images_processed/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+documentation/
+**/implementation_guide.md/
+**/implementation_plan.md/
+
+
+**/indiana_projections.csv
+**/indiana_reports.csv
+**/processed_dataset.csv
